@@ -10,6 +10,9 @@ app.get('/template', function(req, res){
 
 app.get('/', function(req, res){
     res.send('Hello home page');;
+
+    res.send('Hello home 맹고');;
+
 });
 
 app.get('/dynamic', function(req, res){
