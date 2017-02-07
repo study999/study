@@ -13,6 +13,7 @@ app.get('/', function(req, res){
     res.send('Hello home page');;
 
     res.send('Hello home 맹고');;
+    res.send('Hello home 엥엥');;
 
 });
 
