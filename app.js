@@ -14,7 +14,7 @@ app.get('/', function(req, res){
 
     res.send('Hello home 맹고');;
     res.send('Hello home 엥엥');;
-
+    res.send('Hello home 옹고');;
 });
 
 app.get('/dynamic', function(req, res){
