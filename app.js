@@ -9,6 +9,7 @@ app.get('/template', function(req, res){
 })
 
 app.get('/', function(req, res){
+    res.send('Hello 옹고');;
     res.send('Hello home page');;
 });
 
